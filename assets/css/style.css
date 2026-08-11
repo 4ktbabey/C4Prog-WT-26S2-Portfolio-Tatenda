@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header img{
+    height: 70px;
+    width: 70px;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+
+nav {
+    display: none;
+}
+
+/*
+                                Test.html
+ body {
+    display: grid;
+    grid-template-rows: auto 1fr minmax(650px, auto) minmax(100px, auto);
+
+    margin: 0 auto;
+    padding: 5px;
+ }
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 120px;
+    background-color: #757575;
+    position: sticky;
+    top: 0;
+}
+
+
+main {
+    margin: 0 auto;
+    justify-content: center;
+}
+.grid-container {
+   display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+
+    gap: 10px;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+    background: transparent;
+}
+
+ .items {
+    background: #3dffdf;
+ }
+
+ nav {
+    display: none; 
+ }
+*/
