@@ -1,6 +1,6 @@
     body {
         display: grid;
-        grid-template-rows: 80px 1fr minmax(650px, auto) minmax(100px, auto);
+        grid-template-rows: 60px 1fr minmax(650px, auto) minmax(100px, auto);
     }
     header {
         display: flex;
@@ -8,6 +8,7 @@
         background-color: #757575;
         position: sticky;
         top: 0;
+        padding: 5px;
         height: 80px;
     }
     .menu {
@@ -24,11 +25,10 @@
     margin: 0 0 3px 0;
     padding: 0;
     }
-@media only screen and (max-width: 800px) {
+
     #menu-items {
         display: none;
     }
-}
 
     main {
         display: flex;
@@ -82,9 +82,17 @@
         display: flex;
         background-color: #757575;
         position: sticky;
+        gap: 5px;
         top: 0;
     }
-}
+
+    .menu {
+        display: none;
+    }
+    #menu-items{
+        display: flex;
+        justify-content: center ;
+    }
     .top-nav{
         position: sticky;
         top: 80px;
@@ -102,7 +110,6 @@
     .top-nav a {
         text-decoration: none;
     }
-@media only screen and (min-width: 800px) {
     main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -152,4 +159,3 @@
         color: rgb(255, 255, 255);
     }
 }
-
