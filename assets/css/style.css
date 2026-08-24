@@ -73,9 +73,6 @@
     }
 
 @media only screen and (min-width: 800px) {
-    #aside-main {
-        display: block;
-    }
     body {
     display: grid;
     grid-template-rows: 80px 1fr minmax(650px, auto) minmax(100px, auto);
@@ -120,7 +117,7 @@
         margin: 0 auto;
     }
     article, aside {
-        padding: 1em;;
+        padding: 1em;
     }
     .article1 {
         grid-column: 1;
@@ -139,10 +136,11 @@
     }
     .article4 {
         grid-column: 2;
-        grid-row: 2;
+        grid-row: 2;    
         background-color: rgb(96, 96, 96);
     }
-    aside{
+    #aside-main{
+        display: block;
         grid-column: 3;
         grid-row: 1/3;
         background-color: rgb(136, 136, 136);
