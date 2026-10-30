@@ -197,3 +197,38 @@
         color: rgb(255, 255, 255);
     }
 }
+#api-form {
+    background-color: #250b2e;
+    padding: 15px;
+    border: 1px solid purple;
+}
+
+.form-section {
+    background-color: #412337;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+    text-align: center;
+}
+.form-section:first-child{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#api-form input {
+    padding: 8px;
+    margin: 5px;
+}
+
+#api-form button {
+    background-color: purple;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#response {
+    color: white;
+}

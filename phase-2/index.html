@@ -14,7 +14,7 @@
 
 <header>
     <img src="../assets/img/60.svg" alt="Site logo">
-    <h1>Teacher + Student = Dumb and Dumber</h1>
+    <h1>Teacher + Student</h1>
 </header>
 <nav class="top-nav">
     <aside class="menu">
@@ -119,24 +119,29 @@
     <section>
         <h3>Try an API</h3>
 
-        <form id="api-form">
-                <label>
-                    <input type="checkbox" id="dictionary" name="api" value="dictionary">
-                    Dictionary
-                </label>
+    <form id="api-form">
+        <div class="form-section">
+            <label>
+                <input type="checkbox" id="dictionary" name="api" value="dictionary">
+                Dictionary
+            </label>
 
-                <label>
-                    <input type="checkbox" id="quotes" name="api" value="quotes">
-                    Quotes
-                </label>
+            <label>
+                <input type="checkbox" id="quotes" name="api" value="quotes">
+                Quotes
+            </label>
+        </div>
 
-                <label for="input">Enter a word or category:</label>
-                <input type="text" id="input">
+        <div class="form-section">
+            <label for="input">Enter a word or category:</label>
+            <input type="text" id="input">
+        </div>
 
-                <button type="submit">Get Results</button>
-
-                <p id="response"></p>
-        </form>
+        <div class="form-section">
+            <button type="submit">Get Results</button>
+            <p id="response"></p>
+        </div>
+    </form>
     </section>
 </article>
 
