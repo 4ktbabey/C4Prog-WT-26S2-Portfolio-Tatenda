@@ -1,4 +1,5 @@
 // Get the checkboxes
+//
 const dictionary = document.getElementById('dictionary');
 const quotes = document.getElementById('quotes');
 
