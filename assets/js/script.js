@@ -36,8 +36,7 @@ form.addEventListener('submit', (event) => {
 
     // Dictionary API
     if (dictionary.checked) {
-        const url = 'https://api.api-ninjas.com/v1/dictionary?word='
-            + encodeURIComponent(input);
+        const url = 'https://api.api-ninjas.com/v1/dictionary?word=' + encodeURIComponent(input);
 
         response.textContent = 'Loading...';
 
@@ -64,8 +63,7 @@ form.addEventListener('submit', (event) => {
 
     // Quotes API
     else if (quotes.checked) {
-        const url = 'https://api.api-ninjas.com/v2/quotes?categories='
-            + encodeURIComponent(input);
+        const url = 'https://api.api-ninjas.com/v2/quotes?categories=' + encodeURIComponent(input);
 
         response.textContent = 'Loading...';
 
